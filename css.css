@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'caviardreams-webfont';
+    src: url('./font/caviardreams-webfont.woff2') format('woff2'),
+         url('./font/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('./font/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('./font/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('./font/caviardreams_italic-webfont.woff2') format('woff2'),
+         url('./font/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'caviardreams-webfont';
+    background: url(photo/background.jpg) fixed no-repeat;
+background-size: 100%;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+.titre {
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+
+
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'caviar_dreamsbold';
+    color: rgb(178, 99, 99);
+
+}
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+    font-family: 'caviar_dreamsbold';
+    color: rgb(178, 99, 99);
+}
+
+h3 {
+    font-size: large;
+    font-family: 'caviar_dreamsbold';
+    color: darkgoldenrod;
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+section {
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.imageflottante {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.arrondi {
+    border:2px solid black;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+}
